@@ -26,6 +26,9 @@ Here we model motile force as a Hill function dependent on polarity as follows:
      Proliferation law G(A)= μ[(1/2) tanh⁡(270(√A  -(8.5√(At))/1000))+1]
      Growth A = (MCS - MCS_pro) + A_pro   for A < At
 ###############################################################################################
-# This model takes in the approach of collecitve migration from Oelz et al. (2019) (link:https://link.aps.org/doi/10.1103/PhysRevE.100.032403)
+ This model takes in the approach of collecitve migration from Oelz et al. (2019) (link:https://link.aps.org/doi/10.1103/PhysRevE.100.032403)
  
-# and proliferative mechanics from Baker et al. (2018) (link:https://doi.org/10.1016/j.jtbi.2018.12.025)
+ and proliferative mechanics from Baker et al. (2018) (link:https://doi.org/10.1016/j.jtbi.2018.12.025)
+ 
+ ## How to run it
+ You will require Compucell3D 3.7.8. Once Compucell3D is running, open Tweat++ and open the cc3d within it.
