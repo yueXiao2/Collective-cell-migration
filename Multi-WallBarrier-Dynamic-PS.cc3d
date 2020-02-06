@@ -1,0 +1,7 @@
+<Simulation version="3.6.2">
+   <XMLScript Type="XMLScript">Simulation/Epithelial1.xml</XMLScript>
+   <PythonScript Type="PythonScript">Simulation/Epithelial1.py</PythonScript>
+   <Resource Type="PIFFile">Simulation/Epithelial1.piff</Resource>
+   <Resource Type="Python">Simulation/Epithelial1Steppables.py</Resource>
+   <ParameterScan Type="ParameterScan">Simulation/ParameterScanSpecs.xml</ParameterScan>
+</Simulation>
