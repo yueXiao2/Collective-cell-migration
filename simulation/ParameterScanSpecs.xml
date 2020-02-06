@@ -1,0 +1,8 @@
+<ParameterScan version="3.7.0">
+   <OutputDirectory>C:\Users\qq871\Desktop\Multi\ParameterScan</OutputDirectory>
+   <ParameterList Resource="Simulation/Epithelial1Steppables.py">
+      <Parameter CurrentIteration="0" Name="Alpha" Type="PYTHON_GLOBAL" ValueType="float">
+         <Values>1.0</Values>
+      </Parameter>
+   </ParameterList>
+</ParameterScan>
