@@ -9,6 +9,7 @@ Collective motion of cells is one of the principal modes of cell migration. Unli
 Here we model motile force as a Hill function dependent on polarity as follows:
 
 ################################################################################################
+
      velocity v = (dCOM_x/dt, dCOM_y/dt) 
      dp/dt = -Beta p + Gamma V    (in x and y directions)
     
