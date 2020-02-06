@@ -8,23 +8,23 @@ Collective motion of cells is one of the principal modes of cell migration. Unli
 
 Here we model motile force as a Hill function dependent on polarity as follows:
 
-##########################################################################################################
-#     velocity v = (dCOM_x/dt, dCOM_y/dt) 
-#     dp/dt = -Beta p + Gamma V    (in x and y directions)
-#    
-#     Centre of mass (COM_x,COM_y) COM = COM + v dt             (Euler's forward method in x and y directions)               
-#     polarity p = p + dp/dt dt
-#   
-#     Force F = Fmax (p/|p|)(|p|^n/[|p|^n + Alpha^n])   (in x and y directions, i.e. lambdaVecX and lambdaVecY in CompuCell3D)
-#
-#     Force F (applied to a cell) is calculated for all cells. Then, F is pluged into energy function below.
-#
-#                           Area elasticity       Contractility(actin)       Adhesion(E-cadherin)         Motile force
-#     Potts energy = SUM_AllCells_i[Ai - At]^2 + SUM_AllCells_i[Li - Lt]^2 - SUM_AllCells_i[Contact_i] +SUM_AllCells_i [F.s]
-#     
-#     Proliferation law G(A)= μ[(1/2) tanh⁡(270(√A  -(8.5√(At))/1000))+1]
-#     Growth A = (MCS - MCS_pro) + A_pro   for A < At
-##########################################################################################################
+################################################################################################
+     velocity v = (dCOM_x/dt, dCOM_y/dt) 
+     dp/dt = -Beta p + Gamma V    (in x and y directions)
+    
+     Centre of mass (COM_x,COM_y) COM = COM + v dt             (Euler's forward method in x and y directions)               
+     polarity p = p + dp/dt dt
+   
+     Force F = Fmax (p/|p|)(|p|^n/[|p|^n + Alpha^n])   (in x and y directions, i.e. lambdaVecX and lambdaVecY in CompuCell3D)
+
+     Force F (applied to a cell) is calculated for all cells. Then, F is pluged into energy function below.
+
+                           Area elasticity       Contractility(actin)       Adhesion(E-cadherin)         Motile force
+     Potts energy = SUM_AllCells_i[Ai - At]^2 + SUM_AllCells_i[Li - Lt]^2 - SUM_AllCells_i[Contact_i] +SUM_AllCells_i [F.s]
+     
+     Proliferation law G(A)= μ[(1/2) tanh⁡(270(√A  -(8.5√(At))/1000))+1]
+     Growth A = (MCS - MCS_pro) + A_pro   for A < At
+###############################################################################################
 # This model takes in the approach of collecitve migration from Oelz et al. (2019) (link:https://link.aps.org/doi/10.1103/PhysRevE.100.032403)
  
 # and proliferative mechanics from Baker et al. (2018) (link:https://doi.org/10.1016/j.jtbi.2018.12.025)
