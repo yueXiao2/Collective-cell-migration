@@ -31,4 +31,4 @@ Here we model motile force as a Hill function dependent on polarity as follows:
  and proliferative mechanics from Baker et al. (2018) (link:https://doi.org/10.1016/j.jtbi.2018.12.025)
  
  ## How to run it
- You will require Compucell3D 3.7.8. Once Compucell3D is running, open Tweat++ and open the cc3d within it.
+ You will require Compucell3D 3.7.8 (Exactly this version). Once Compucell3D is running, open Tweat++ and open the cc3d within it.
