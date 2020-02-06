@@ -32,3 +32,5 @@ Here we model motile force as a Hill function dependent on polarity as follows:
  
  ## How to run it
  You will require Compucell3D 3.7.8 (Exactly this version). Once Compucell3D is running, open Tweat++ and open the cc3d within it.
+ ## Results of the model
+ Visualisation of the results can be found here:https://script.google.com/macros/s/AKfycbyQPNynz41PAjo912skq7CKDd-hV7NMrhFNAUL2/exec
