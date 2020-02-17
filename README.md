@@ -1,6 +1,6 @@
 ## Project: Mathematical Collective Cell Migration in Two-Dimension.
 
-This project is my work for Summer Research Program 2019/202 offered by UQ. I developed this model under the supervision of Dr. Zoltan Neufeld and Dr. Hamid Khataee.
+This project is my work for Summer Research Program 2019/2020 offered by UQ. I developed this model under the supervision of Dr. Zoltan Neufeld and Dr. Hamid Khataee.
 
 ## What is this model?
 
